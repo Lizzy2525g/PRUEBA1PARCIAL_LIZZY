@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  color: white;
+  padding: 80px 0;
+}
+
+.hero-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background:linear-gradient(90deg, #ff6a00, #ee0979);
+  z-index: 1;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.rotate-phone {
+  transform: rotate(-25deg);
+  max-width: 350px;
+  margin: 0 auto;
+}
+.features i {
+  color: #f5593d; 
+}
+
+.features h5 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.features p {
+  color: #666;
+  font-size: 15px;
+}
+
+.rotate-phone {
+  transform: rotate(-10deg);
+}
+
+.app-intro h2 {
+  color: #222;
+  font-size: 2.5rem;
+}
+
+.app-intro p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.app-intro ul li {
+  font-size: 1.05rem;
+}
+.screenshots-section h2 {
+  font-size: 2.3rem;
+}
+
+.screenshots-carousel .item img {
+  border-radius: 16px;
+  max-height: 450px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background: #ff6a00 !important;
+  color: white !important;
+  border-radius: 50% !important;
+  width: 40px;
+  height: 40px;
+  line-height: 1;
+  font-size: 1.5rem;
+  margin: 0 10px;
+  transition: background 0.3s ease;
+}
+
+.owl-carousel .owl-nav button:hover {
+  background: #e65a00 !important;
+}
+.testimonial-box {
+  background-color: #f5fafd;
+  transition: box-shadow 0.3s ease;
+}
+
+.testimonial-box:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-box img {
+  object-fit: cover;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.download-section {
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.download-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.download-button {
+  display: flex;
+  align-items: center;
+  background: white;
+  color: #333;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  width: 280px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  transform: scale(1.05);
+}
+
+.download-button i {
+  font-size: 2.5em;
+  margin-right: 20px;
+}
+
+.download-button .text strong {
+  display: block;
+  font-size: 1.2em;
+}
+
+.download-button .text span {
+  color: #777;
+  font-size: 0.95em;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+footer .social-icons {
+  margin-bottom: 15px;
+}
+
+footer .social-icons i {
+  font-size: 1.2em;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+footer .social-icons i:hover {
+  color: #ff6a00;
+}
